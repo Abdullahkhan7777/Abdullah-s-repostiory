@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".receive_otp_screen">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginEnd="@dimen/_80sdp"
+        android:background="@drawable/button_background"
+        android:text="verify"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:text="please enter otp recently sent"
+        android:textColor="#7A000000"
+        android:textSize="@dimen/_13ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_60sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/community" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.489">
+
+        <EditText
+            android:id="@+id/editTextPhone_1"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_7sdp"
+            android:background="@drawable/et_backgorund"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="@dimen/_25ssp" />
+
+        <EditText
+            android:id="@+id/editTextPhone_2"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_7sdp"
+            android:background="@drawable/et_backgorund"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="@dimen/_25sdp" />
+
+        <EditText
+            android:id="@+id/editTextPhone_3"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_7sdp"
+            android:background="@drawable/et_backgorund"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="@dimen/_25ssp" />
+
+        <EditText
+            android:id="@+id/editTextPhone_4"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_7sdp"
+            android:background="@drawable/et_backgorund"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="@dimen/_25ssp" />
+
+        <EditText
+            android:id="@+id/editTextPhone_5"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_7sdp"
+            android:background="@drawable/et_backgorund"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="@dimen/_25ssp" />
+
+        <EditText
+            android:id="@+id/editTextPhone_6"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_7sdp"
+            android:background="@drawable/et_backgorund"
+            android:gravity="center"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textSize="@dimen/_25ssp" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_sumit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        app:layout_constraintVertical_bias="0.579" />
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
